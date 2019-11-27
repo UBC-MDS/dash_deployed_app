@@ -123,7 +123,7 @@ jumbotron = dbc.Jumbotron(
         )
     ],
     fluid=True,
-)
+#) # Comment out this line 126 to create a bug
 
 logo = dbc.Row(dbc.Col(html.Img(src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Unico_Anello.png/1920px-Unico_Anello.png', 
                       width='15%'), width=4))
